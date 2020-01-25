@@ -113,6 +113,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="Point Turn.vi" Type="VI" URL="../../../../../Desktop/Point Turn.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="TurnArc.vi" Type="VI" URL="../TurnArc.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
