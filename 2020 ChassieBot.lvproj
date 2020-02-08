@@ -113,11 +113,10 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="ArcTurnLoop.vi" Type="VI" URL="../ArcTurnLoop.vi"/>
 		<Item Name="MoveForward.vi" Type="VI" URL="../MoveForward.vi"/>
 		<Item Name="Point Turn.vi" Type="VI" URL="../../../../../Desktop/Point Turn.vi"/>
+		<Item Name="Point Turn.vi" Type="VI" URL="../Point Turn.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="TurnArc.vi" Type="VI" URL="../TurnArc.vi"/>
 		<Item Name="TurnArcImproved.vi" Type="VI" URL="/E/TurnArcImproved.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -614,6 +613,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
+			<Item Name="ArcTurnLoop.vi" Type="VI" URL="../ArcTurnLoop.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -633,6 +633,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="TurnArc.vi" Type="VI" URL="../TurnArc.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
