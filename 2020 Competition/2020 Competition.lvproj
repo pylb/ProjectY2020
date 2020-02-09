@@ -109,9 +109,11 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Ball Handling" Type="Folder">
 				<Item Name="Ball HandlingBegin.vi" Type="VI" URL="../Ball Handling/Ball HandlingBegin.vi"/>
+				<Item Name="Ball HandlingPeriodic.vi" Type="VI" URL="../Ball Handling/Ball HandlingPeriodic.vi"/>
 			</Item>
 			<Item Name="ControlPanel" Type="Folder">
 				<Item Name="ControlPanelBegin.vi" Type="VI" URL="../ControlPanel/ControlPanelBegin.vi"/>
+				<Item Name="ControlPanelPeriodic.vi" Type="VI" URL="../ControlPanel/ControlPanelPeriodic.vi"/>
 			</Item>
 			<Item Name="Drive" Type="Folder">
 				<Item Name="BeginDrive.vi" Type="VI" URL="../Drive/BeginDrive.vi"/>
