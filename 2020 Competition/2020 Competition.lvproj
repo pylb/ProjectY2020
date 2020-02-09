@@ -103,6 +103,23 @@ AddOutputFilter chunkFilter
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
+			<Item Name="Auto" Type="Folder">
+				<Item Name="ArcTurnLoop.vi" Type="VI" URL="../../ArcTurnLoop.vi"/>
+				<Item Name="TurnArc.vi" Type="VI" URL="../../TurnArc.vi"/>
+			</Item>
+			<Item Name="Ball Handling" Type="Folder">
+				<Item Name="Ball HandlingBegin.vi" Type="VI" URL="../Ball Handling/Ball HandlingBegin.vi"/>
+			</Item>
+			<Item Name="ControlPanel" Type="Folder">
+				<Item Name="ControlPanelBegin.vi" Type="VI" URL="../ControlPanel/ControlPanelBegin.vi"/>
+			</Item>
+			<Item Name="Drive" Type="Folder">
+				<Item Name="BeginDrive.vi" Type="VI" URL="../Drive/BeginDrive.vi"/>
+			</Item>
+			<Item Name="Winch" Type="Folder">
+				<Item Name="Winch.vi" Type="VI" URL="../../Winch.vi"/>
+				<Item Name="WinchBegin.vi" Type="VI" URL="../Winch/WinchBegin.vi"/>
+			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
@@ -112,11 +129,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
-			<Item Name="Winch.vi" Type="VI" URL="../../Winch.vi"/>
 		</Item>
-		<Item Name="ArcTurnLoop.vi" Type="VI" URL="../../ArcTurnLoop.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="TurnArc.vi" Type="VI" URL="../../TurnArc.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
