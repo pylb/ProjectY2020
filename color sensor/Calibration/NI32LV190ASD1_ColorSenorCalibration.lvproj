@@ -100,20 +100,19 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
-			<Item Name="Elapsed Times.vi" Type="VI" URL="/C/Users/FRC/Documents/LabVIEW Data/ColorSenorCalibration/Elapsed Times.vi"/>
+			<Item Name="Elapsed Times.vi" Type="VI" URL="../../../../../../../../FRC/Documents/LabVIEW Data/ColorSenorCalibration/Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
-			<Item Name="Autonomous Independent.vi" Type="VI" URL="/C/Users/FRC/Documents/LabVIEW Data/ColorSenorCalibration/Autonomous Independent.vi"/>
-			<Item Name="Begin.vi" Type="VI" URL="/C/Users/FRC/Documents/LabVIEW Data/ColorSenorCalibration/Begin.vi"/>
-			<Item Name="Disabled.vi" Type="VI" URL="/C/Users/FRC/Documents/LabVIEW Data/ColorSenorCalibration/Disabled.vi"/>
-			<Item Name="Finish.vi" Type="VI" URL="/C/Users/FRC/Documents/LabVIEW Data/ColorSenorCalibration/Finish.vi"/>
-			<Item Name="Periodic Tasks.vi" Type="VI" URL="/C/Users/FRC/Documents/LabVIEW Data/ColorSenorCalibration/Periodic Tasks.vi"/>
-			<Item Name="Robot Global Data.vi" Type="VI" URL="/C/Users/FRC/Documents/LabVIEW Data/ColorSenorCalibration/Robot Global Data.vi"/>
-			<Item Name="Teleop.vi" Type="VI" URL="/C/Users/FRC/Documents/LabVIEW Data/ColorSenorCalibration/Teleop.vi"/>
-			<Item Name="Test.vi" Type="VI" URL="/C/Users/FRC/Documents/LabVIEW Data/ColorSenorCalibration/Test.vi"/>
-			<Item Name="Vision Processing.vi" Type="VI" URL="/C/Users/FRC/Documents/LabVIEW Data/ColorSenorCalibration/Vision Processing.vi"/>
+			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
+			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
+			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
+			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
+			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
+			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
+			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
+			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="Robot Main.vi" Type="VI" URL="/C/Users/FRC/Documents/LabVIEW Data/ColorSenorCalibration/Robot Main.vi"/>
+		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -199,7 +198,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
-				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/IMAQdx.ctl"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="LEB Encoder.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/LEB Encoder.vi"/>
 				<Item Name="Make Table Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Make Table Operation.ctl"/>
@@ -525,6 +524,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
